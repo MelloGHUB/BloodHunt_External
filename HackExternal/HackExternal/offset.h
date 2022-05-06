@@ -61,7 +61,7 @@ inline namespace BloodHunt
 
 		DWORD offset_u_world = 0x55fcbc0;
 		DWORD offset_g_names = 0x54aa8c0;
-		DWORD offset_camera_manager = 0x2c0; // APlayerController->PlayerCameraManager
+		DWORD offset_camera_manager = 0x228; // APlayerController->PlayerCameraManager
 		DWORD offset_camera_cache = 0x1ab0; //APlayerCameraManager->CameraCachePrivate
 		DWORD offset_persistent_level = 0x30; //UWorld->PersistentLevel
 		DWORD offset_game_instance = 0x180; //UWolrd->OwningGameInstance
